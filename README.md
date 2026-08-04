@@ -44,7 +44,7 @@ Collection of models for predicting enzyme kinetic parameters (PEKP).
 
 ## Km
 
-| Model | Year | GitHub / paper / Link |
+| Model | Year | Link |
 | --- | ---: | --- |
 | Kroll-KM | 2021 | https://github.com/AlexanderKroll/KM_prediction |
 | GraphKM | 2024 | https://github.com/realHXiao/GraphKM |
@@ -74,7 +74,7 @@ Collection of models for predicting enzyme kinetic parameters (PEKP).
 
 ## kcat/Km
 
-| Model | Year | GitHub / paper / Link |
+| Model | Year | Link |
 | --- | ---: | --- |
 | UniKP | 2023 | https://github.com/Luo-SynBioLab/UniKP |
 | EITLEM-Kinetics | 2024 | https://github.com/XvesS/EITLEM-Kinetics |
