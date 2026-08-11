@@ -21,7 +21,7 @@ Collection of models for predicting enzyme kinetic parameters (PEKP).
 | GELKcat | 2025 | https://doi.org/10.1016/j.ymeth.2025.02.010 |
 | mmKcat | 2025 | https://github.com/ProEcho1/MMKcat |
 | ProKcat | 2025 | https://arxiv.org/abs/2509.11782 |
-| TCNeKP | 2025 | https://doi.org/10.1021/acs.jcim.5c01830 |
+| TCNeKP | 2025 | https://github.com/YuanyuanLei-TCNeKP/TCNeKP |
 | CatPred | 2025 | https://github.com/maranasgroup/CatPred |
 | EnzyCLIP | 2025 | https://arxiv.org/abs/2512.00379 |
 | OmniESI | 2025 | https://github.com/Hong-yu-Zhang/OmniESI |
@@ -55,7 +55,7 @@ Collection of models for predicting enzyme kinetic parameters (PEKP).
 | RealKcat | 2025 | https://github.com/TKAI-LAB-Mali/RealKcat |
 | GraphKcat | 2025 | https://github.com/DingLuoXMU/GraphKcat |
 | DLERKm | 2025 | https://github.com/kaiwang-group/DLERKm |
-| TCNeKP | 2025 | https://doi.org/10.1021/acs.jcim.5c01830 |
+| TCNeKP | 2025 | https://github.com/YuanyuanLei-TCNeKP/TCNeKP |
 | CatPred | 2025 | https://github.com/maranasgroup/CatPred |
 | EnzyCLIP | 2025 | https://arxiv.org/abs/2512.00379 |
 | OmniESI | 2025 | https://github.com/Hong-yu-Zhang/OmniESI |
