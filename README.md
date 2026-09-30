@@ -2,9 +2,15 @@
 
 Collection of models, methods, and resources for predicting enzyme kinetic parameters (PEKP).
 
+Last literature update: **2026-09-30**.
+
+The three sections group methods by their reported targets. Methods can appear in more than one section; this is intentional. Derived ratios, relative changes, and range classification are marked explicitly. Years follow the linked journal publication where available, otherwise the manuscript/resource year. **Preprint** and **under review** do not imply peer-reviewed publication.
+
+Links distinguish papers, preprints, repositories, data, and notebooks where checked in this update. A repository link does not imply a complete release or verified reproducibility; an omitted code link does not establish that no code exists. Older bare links are retained from the original collection.
+
 ## kcat
 
-| Model / Method | Year | Link |
+| Model / Method | Year | Links / notes |
 | --- | ---: | --- |
 | Heckmann et al. | 2018 | https://doi.org/10.1038/s41467-018-07652-6 |
 | DLKcat | 2022 | https://github.com/SysBioChalmers/DLKcat |
@@ -16,39 +22,44 @@ Collection of models, methods, and resources for predicting enzyme kinetic param
 | MPEK | 2024 | https://github.com/kotori-y/mpek |
 | ECEP | 2024 | https://github.com/misharisaud/ECEP |
 | ENKIE | 2024 | https://gitlab.com/csb.ethz/enkie |
-| RealKcat | 2025 | https://github.com/TKAI-LAB-Mali/RealKcat |
-| PreTKcat | 2025 | https://github.com/MrVincentCai/PreTKcat |
+| PreTKcat | 2025 | [Paper](https://doi.org/10.1016/j.compbiolchem.2024.108327) · [Repository](https://github.com/MrVincentCai/PreTKcat) |
 | NNKcat | 2025 | https://github.com/Jiczh/NNKcat |
 | GELKcat | 2025 | https://doi.org/10.1016/j.ymeth.2025.02.010 |
-| mmKcat | 2025 | https://github.com/ProEcho1/MMKcat |
-| ProKcat | 2025 | https://arxiv.org/abs/2509.11782 |
-| TCNeKP | 2025 | https://github.com/YuanyuanLei-TCNeKP/TCNeKP |
+| MMKcat | 2025 | [Paper](https://www.sciencedirect.com/science/article/pii/S0010482525006997) · [Repository](https://github.com/ProEcho1/MMKcat) |
+| ProKcat | 2025 | [Preprint](https://arxiv.org/abs/2509.11782) · [Repository](https://github.com/bozhenhhu/ProKcat); withdrawn from IJCAI 2025 proceedings (see arXiv comments) |
+| TCNeKP | 2025 | [Paper](https://doi.org/10.1021/acs.jcim.5c01830) · [Repository](https://github.com/YuanyuanLei-TCNeKP/TCNeKP) |
 | CatPred | 2025 | https://github.com/maranasgroup/CatPred |
-| EnzyCLIP | 2025 | https://arxiv.org/abs/2512.00379 |
+| EnzyCLIP | 2025 | [Preprint](https://arxiv.org/abs/2512.00379) |
 | OmniESI | 2025 | https://github.com/Hong-yu-Zhang/OmniESI |
 | DEKP | 2025 | https://github.com/wang-yi-zhen/DEKP |
 | CataPro | 2025 | https://github.com/zchwang/CataPro |
-| CPI-Pred | 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/ |
+| CPI-Pred | 2025 | [Preprint](https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/) |
 | SAKPE | 2025 | https://github.com/HGzyme/SAKPE |
-| KinForm | 2026 | https://github.com/Digital-Metabolic-Twin-Centre/KinForm |
-| ERBA | 2026 | https://arxiv.org/abs/2603.12845 |
-| O2DENet | 2026 | https://github.com/blackjack534/AuESINet |
-| EnzymePlex | 2026 | https://doi.org/10.64898/2026.03.04.709726 |
-| UniKineG | 2026 | https://zenodo.org/records/18125285 |
-| PMAK | 2026 | https://github.com/MrVincentCai/PMAK |
-| KcatNet | 2026 | https://github.com/BioColLab/KcatNet |
-| GraphKcat | 2026 | https://github.com/ld139/GraphKcat |
-| GO-HKP | 2026 | https://github.com/tibbdc/GO-HKP |
-| EnzCast | 2026 | https://doi.org/10.64898/2026.04.28.721430 |
-| ENZYME-UNIFIED | 2026 | https://openreview.net/pdf?id=oTnFATrtCD |
-| KcatNeuroCortex | 2026 | https://colab.research.google.com/drive/11QqYBL1Csyyu-uRX4b-LsceaeVRR7TeF |
-| DeltaKcat | 2026 | https://github.com/LiLabTsinghua/DeltaKcat |
+| CatRange (formerly RealKcat) | 2026 | [Paper](https://doi.org/10.1093/pnasnexus/pgag309) · [Repository](https://github.com/TKAI-LAB-Mali/CatRange); kinetic-range classification (2025 RealKcat preprint) |
+| KinForm | 2026 | [Paper](https://doi.org/10.1038/s41540-026-00692-5) · [Repository](https://github.com/Digital-Metabolic-Twin-Centre/KinForm) |
+| ERBA | 2026 | [Preprint](https://arxiv.org/abs/2603.12845) |
+| O2DENet | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.5c03204) · [Repository](https://github.com/blackjack534/O2DENet) (formerly AuESINet) |
+| EnzymePlex | 2026 | [Preprint](https://doi.org/10.64898/2026.03.04.709726); full source not reverified in this update |
+| UniKineG | 2026 | [Paper](https://doi.org/10.3390/ijms27041731) · [Data](https://zenodo.org/records/18125285) |
+| PMAK | 2026 | [Paper](https://doi.org/10.1038/s42003-026-09551-9) · [Repository](https://github.com/MrVincentCai/PMAK) |
+| KcatNet | 2026 | [Paper](https://doi.org/10.1186/s13059-026-03986-3) · [Repository](https://github.com/BioColLab/KcatNet) |
+| GraphKcat | 2026 | [Paper](https://doi.org/10.1021/acscatal.6c03874) · [Repository](https://github.com/ld139/GraphKcat) |
+| GO-HKP | 2026 | [Paper](https://doi.org/10.1016/j.simpa.2025.100803) · [Repository](https://github.com/tibbdc/GO-HKP) |
+| EnzCast | 2026 | [Preprint](https://doi.org/10.64898/2026.04.28.721430) |
+| ENZYME-UNIFIED | 2026 | [Manuscript](https://openreview.net/pdf?id=oTnFATrtCD); marked under review, acceptance not verified |
+| KcatNeuroCortex | 2026 | [Paper](https://doi.org/10.1016/j.enzmictec.2026.110915) · [Colab](https://colab.research.google.com/drive/11QqYBL1Csyyu-uRX4b-LsceaeVRR7TeF) |
+| DeltaKcat | 2026 | [Preprint](https://doi.org/10.65215/LTSpreprints.2026.05.19.000247) · [Original repository link](https://github.com/LiLabTsinghua/DeltaKcat) (unavailable when checked); relative changes between enzyme–substrate pairs |
 | iESC | 2026 | https://doi.org/10.1016/j.biortech.2026.134067 |
-| CatESO | 2026 | https://doi.org/10.64898/2026.07.04.736506 |
+| CatESO | 2026 | [Paper](https://doi.org/10.1021/jacs.6c14365) · [Repository](https://github.com/zhenjiagan/CatESO) · [Earlier preprint](https://doi.org/10.64898/2026.07.04.736506) |
+| EnzGFM (UniKP downstream) | 2026 | [Paper](https://doi.org/10.1038/s41467-026-75283-3) · [Repository](https://github.com/DeepBxM/EnzGFM); enzyme-specific backbone with downstream kinetic regressors |
+| GAPEK / GAPEK+ | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.6c02546) · [Repository](https://github.com/Zach-NTU/GAPEK); repository marked pre-release |
+| KinEAGER | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.6c02075); official code attribution not verified |
+| Interkcat | 2026 | [Preprint](https://arxiv.org/abs/2609.24157) · [Repository](https://github.com/ZWR0/Interkcat) |
+| MCKcat | 2026 | [Paper](https://doi.org/10.1002/advs.77789) · [Repository](https://github.com/gefengya/MCKcat) |
 
 ## Km
 
-| Model / Method | Year | Link |
+| Model / Method | Year | Links / notes |
 | --- | ---: | --- |
 | Kroll-KM | 2021 | https://github.com/AlexanderKroll/KM_prediction |
 | MLAGO | 2022 | https://doi.org/10.1186/s12859-022-05009-x |
@@ -58,39 +69,46 @@ Collection of models, methods, and resources for predicting enzyme kinetic param
 | MPEK | 2024 | https://github.com/kotori-y/mpek |
 | ProSmith | 2024 | https://github.com/AlexanderKroll/ProSmith |
 | ENKIE | 2024 | https://gitlab.com/csb.ethz/enkie |
-| RealKcat | 2025 | https://github.com/TKAI-LAB-Mali/RealKcat |
 | DLERKm | 2025 | https://github.com/kaiwang-group/DLERKm |
-| TCNeKP | 2025 | https://github.com/YuanyuanLei-TCNeKP/TCNeKP |
+| TCNeKP | 2025 | [Paper](https://doi.org/10.1021/acs.jcim.5c01830) · [Repository](https://github.com/YuanyuanLei-TCNeKP/TCNeKP) |
 | CatPred | 2025 | https://github.com/maranasgroup/CatPred |
-| EnzyCLIP | 2025 | https://arxiv.org/abs/2512.00379 |
+| EnzyCLIP | 2025 | [Preprint](https://arxiv.org/abs/2512.00379) |
 | OmniESI | 2025 | https://github.com/Hong-yu-Zhang/OmniESI |
 | DEKP | 2025 | https://github.com/wang-yi-zhen/DEKP |
 | CataPro | 2025 | https://github.com/zchwang/CataPro |
-| CPI-Pred | 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/ |
+| CPI-Pred | 2025 | [Preprint](https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/) |
 | SAKPE | 2025 | https://github.com/HGzyme/SAKPE |
-| KinForm | 2026 | https://github.com/Digital-Metabolic-Twin-Centre/KinForm |
-| GraphKcat | 2026 | https://github.com/ld139/GraphKcat |
-| ERBA | 2026 | https://arxiv.org/abs/2603.12845 |
-| O2DENet | 2026 | https://github.com/blackjack534/AuESINet |
-| EnzymePlex | 2026 | https://doi.org/10.64898/2026.03.04.709726 |
-| UniKineG | 2026 | https://zenodo.org/records/18125285 |
-| KmPred | 2026 | https://github.com/misharisaud/KmPred |
-| EnzCast | 2026 | https://doi.org/10.64898/2026.04.28.721430 |
-| ENZYME-UNIFIED | 2026 | https://openreview.net/pdf?id=oTnFATrtCD |
-| DeltaKcat | 2026 | https://github.com/LiLabTsinghua/DeltaKcat |
+| PreTKcat | 2025 | [Paper](https://doi.org/10.1016/j.compbiolchem.2024.108327) · [Repository](https://github.com/MrVincentCai/PreTKcat) |
+| CatRange (formerly RealKcat) | 2026 | [Paper](https://doi.org/10.1093/pnasnexus/pgag309) · [Repository](https://github.com/TKAI-LAB-Mali/CatRange); kinetic-range classification (2025 RealKcat preprint) |
+| KinForm | 2026 | [Paper](https://doi.org/10.1038/s41540-026-00692-5) · [Repository](https://github.com/Digital-Metabolic-Twin-Centre/KinForm) |
+| GraphKcat | 2026 | [Paper](https://doi.org/10.1021/acscatal.6c03874) · [Repository](https://github.com/ld139/GraphKcat) |
+| ERBA | 2026 | [Preprint](https://arxiv.org/abs/2603.12845) |
+| O2DENet | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.5c03204) · [Repository](https://github.com/blackjack534/O2DENet) (formerly AuESINet) |
+| EnzymePlex | 2026 | [Preprint](https://doi.org/10.64898/2026.03.04.709726); full source not reverified in this update |
+| UniKineG | 2026 | [Paper](https://doi.org/10.3390/ijms27041731) · [Data](https://zenodo.org/records/18125285) |
+| KmPred | 2026 | [Paper](https://doi.org/10.3389/frai.2026.1711471) · [Repository](https://github.com/misharisaud/KmPred) |
+| EnzCast | 2026 | [Preprint](https://doi.org/10.64898/2026.04.28.721430) |
+| ENZYME-UNIFIED | 2026 | [Manuscript](https://openreview.net/pdf?id=oTnFATrtCD); marked under review, acceptance not verified |
+| DeltaKcat | 2026 | [Preprint](https://doi.org/10.65215/LTSpreprints.2026.05.19.000247) · [Original repository link](https://github.com/LiLabTsinghua/DeltaKcat) (unavailable when checked); relative changes between enzyme–substrate pairs |
 | iESC | 2026 | https://doi.org/10.1016/j.biortech.2026.134067 |
+| EnzGFM (UniKP downstream) | 2026 | [Paper](https://doi.org/10.1038/s41467-026-75283-3) · [Repository](https://github.com/DeepBxM/EnzGFM); enzyme-specific backbone with downstream kinetic regressors |
+| GAPEK / GAPEK+ | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.6c02546) · [Repository](https://github.com/Zach-NTU/GAPEK); repository marked pre-release |
+| KinEAGER | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.6c02075); official code attribution not verified |
 
 ## kcat/Km
 
-| Model / Method | Year | Link |
+| Model / Method | Year | Links / notes |
 | --- | ---: | --- |
 | UniKP | 2023 | https://github.com/Luo-SynBioLab/UniKP |
 | EITLEM-Kinetics | 2024 | https://github.com/XvesS/EITLEM-Kinetics |
 | IECata | 2025 | https://github.com/zhaoyanpeng208/IECata |
 | CataPro | 2025 | https://github.com/zchwang/CataPro |
-| CPI-Pred | 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/ |
-| EnzCast | 2026 | https://doi.org/10.64898/2026.04.28.721430 |
-| ENZYME-UNIFIED | 2026 | https://openreview.net/pdf?id=oTnFATrtCD |
-| DeltaKcat | 2026 | https://github.com/LiLabTsinghua/DeltaKcat |
+| CPI-Pred | 2025 | [Preprint](https://pmc.ncbi.nlm.nih.gov/articles/PMC11785036/) |
+| EnzCast | 2026 | [Preprint](https://doi.org/10.64898/2026.04.28.721430) |
+| ENZYME-UNIFIED | 2026 | [Manuscript](https://openreview.net/pdf?id=oTnFATrtCD); marked under review, acceptance not verified |
+| DeltaKcat | 2026 | [Preprint](https://doi.org/10.65215/LTSpreprints.2026.05.19.000247) · [Original repository link](https://github.com/LiLabTsinghua/DeltaKcat) (unavailable when checked); relative changes between enzyme–substrate pairs |
 | iESC | 2026 | https://doi.org/10.1016/j.biortech.2026.134067 |
-| GraphKcat | 2026 | https://github.com/ld139/GraphKcat |
+| GraphKcat | 2026 | [Paper](https://doi.org/10.1021/acscatal.6c03874) · [Repository](https://github.com/ld139/GraphKcat); log-ratio derived as log(kcat) − log(Km) |
+| UniKineG | 2026 | [Paper](https://doi.org/10.3390/ijms27041731) · [Data](https://zenodo.org/records/18125285) |
+| EnzGFM (UniKP downstream) | 2026 | [Paper](https://doi.org/10.1038/s41467-026-75283-3) · [Repository](https://github.com/DeepBxM/EnzGFM); enzyme-specific backbone with downstream kinetic regressors |
+| KinEAGER | 2026 | [Paper](https://doi.org/10.1021/acs.jcim.6c02075); official code attribution not verified; analytically derived from predicted kcat and Km |
