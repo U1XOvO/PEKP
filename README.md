@@ -139,6 +139,8 @@ Collection of models, methods, and resources for predicting enzyme kinetic param
 
 | Resource | Links |
 | --- | --- |
+| BRENDA | [Paper](https://doi.org/10.1093/nar/gkaf1113) · [Database](https://www.brenda-enzymes.org/) |
+| SABIO-RK | [Paper](https://doi.org/10.1093/nar/gkag1118) · [Database](https://sabiork.h-its.org/) |
 | GotEnzymes2 | [Paper](https://doi.org/10.1093/nar/gkaf1053) · [Database](https://metabolicatlas.org/gotenzymes) · [Repository](https://github.com/LiLabTsinghua/GotEnzymes2) |
 | SKiD | [Paper](https://doi.org/10.1038/s41597-025-05829-5) · [Dataset](https://doi.org/10.5281/zenodo.15355030) · [Dataset preparation code](https://github.com/Sowmya-R-Krishnan/SKiD) |
 | Enzyme Co-Scientist (LLENKA) | [Preprint](https://doi.org/10.1101/2025.03.03.641178) · [Database](https://huggingface.co/datasets/jackkuo/LLM-Enzyme-Kinetics-Archive-LLENKA) · [Benchmark](https://huggingface.co/datasets/jackkuo/LLM-Enzyme-Kinetics-Golden-Benchmark) · [Repository](https://github.com/JackKuo666/LLM-BioDataExtractor) |
