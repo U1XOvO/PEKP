@@ -141,6 +141,8 @@ Collection of models, methods, and resources for predicting enzyme kinetic param
 | --- | --- |
 | GotEnzymes2 | [Paper](https://doi.org/10.1093/nar/gkaf1053) · [Database](https://metabolicatlas.org/gotenzymes) · [Repository](https://github.com/LiLabTsinghua/GotEnzymes2) |
 | SKiD | [Paper](https://doi.org/10.1038/s41597-025-05829-5) · [Dataset](https://doi.org/10.5281/zenodo.15355030) · [Dataset preparation code](https://github.com/Sowmya-R-Krishnan/SKiD) |
+| Enzyme Co-Scientist (LLENKA) | [Preprint](https://doi.org/10.1101/2025.03.03.641178) · [Database](https://huggingface.co/datasets/jackkuo/LLM-Enzyme-Kinetics-Archive-LLENKA) · [Benchmark](https://huggingface.co/datasets/jackkuo/LLM-Enzyme-Kinetics-Golden-Benchmark) · [Repository](https://github.com/JackKuo666/LLM-BioDataExtractor) |
+| EnzyExtract (EnzyExtractDB) | [Paper](https://doi.org/10.1002/pro.70251) · [Database](https://github.com/ChemBioHTP/EnzyExtract#database) · [Repository](https://github.com/ChemBioHTP/EnzyExtract) |
 | KcatTIE | [Preprint](https://doi.org/10.21203/rs.3.rs-9154046/v1) · [Benchmark repository](https://github.com/zelixirSH/kcat_benchmark_2025) |
 | EnzyArena | [Paper](https://doi.org/10.1021/acs.jcim.6c01200) · [Datasets](https://github.com/zishuozeng/EnzyArena) |
 | OpenKinetics Predictor | [Web service](https://predictor.openkinetics.org/) · [Repository](https://github.com/openKinetics/webKinPred) · [Preprint](https://doi.org/10.64898/2026.09.25.751968) |
